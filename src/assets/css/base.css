@@ -1,0 +1,15 @@
+:root {
+  --bg-color: #060606;
+  --bg-alt: #0a2338;
+  --tertiary-color: #185272;
+  --link: #2684b7;
+  --title: #2bb3c8;
+  --font: #ffffff;
+
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--font);
+  font-size: 1.25em;
+}
