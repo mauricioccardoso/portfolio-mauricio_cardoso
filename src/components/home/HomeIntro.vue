@@ -6,7 +6,7 @@
       <p>
         Um programador web focado no desenvolvimento front-end, com
         conhecimentos de back-end. Formado em
-        <span class="highlight">Engenharia da Computação</span>
+        <span class="highlight">Engenharia da Computação.</span>
       </p>
     </div>
 
