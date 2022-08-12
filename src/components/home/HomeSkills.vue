@@ -64,6 +64,9 @@ export default defineComponent({
 
 .column {
   background-color: var(--bg-alt);
+
+  box-sizing: border-box;
+  box-shadow: 0 0 10px -4px #000000;
   margin: 0.5rem;
   border-radius: 5px;
   min-width: 8rem;

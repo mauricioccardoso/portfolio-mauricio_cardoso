@@ -12,6 +12,7 @@
             Maurício Cardoso
           </a>
         </p>
+        <a class="credits" href="https://storyset.com/work" target="_blank">Work illustrations by Storyset</a>
       </div>
 
       <div class="column is-one-third footer-item">
@@ -77,6 +78,15 @@ export default defineComponent({
 
 .icon:hover {
   color: var(--link);
+}
+
+.credits {
+  font-size: 8px;
+}
+
+.credits {
+  color: gray;
+  cursor: default;
 }
 
 @media screen and (max-width: 768px) {

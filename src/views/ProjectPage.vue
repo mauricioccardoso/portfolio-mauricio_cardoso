@@ -2,6 +2,7 @@
   <section>
     <div>
       <h1 class="wip">WIP</h1>
+      <p class="wipParag">(Work in progress)</p>
       <i class="fa-solid fa-gear"></i>
     </div>
   </section>
@@ -17,11 +18,12 @@ export default defineComponent({
 
 <style scoped>
 section {
-  height: calc(100vh - 172px);
+  min-height: 300px;
+  height: calc(100vh - 196px);
 }
 div {
   text-align: center;
-  font-size: 72px;
+  font-size: 80px;
 
   position: absolute;
   transform: translate(-50%, -50%);
@@ -30,8 +32,13 @@ div {
 }
 .wip {
   background: -webkit-linear-gradient(var(--tertiary-color), var(--link));
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.wipParag {
+  font-size: 10px;
 }
 
 i {

@@ -1,15 +1,15 @@
 :root {
-  --bg-color: #060606;
-  --bg-alt: #0a2338;
+  --bg-color: linear-gradient(to right top, #1b1d20, #1e2229, #212833, #242d3d, #273347);
+  --bg-alt: #1c3b53;
   --tertiary-color: #185272;
-  --link: #2684b7;
-  --title: #2bb3c8;
+  --link: #1f6286;
+  --title: #2b81c8;
   --font: #ffffff;
 
 }
 
 body {
-  background-color: var(--bg-color);
+  background-image: var(--bg-color);
   color: var(--font);
   font-size: 1.25em;
 }

@@ -39,6 +39,10 @@ export default defineComponent({
   margin-bottom: 3rem;
 }
 
+.linkedin {
+  margin: 0 2rem;
+}
+
 .icon-text a {
   padding: 1rem;
   font-size: 2rem;
@@ -48,11 +52,7 @@ export default defineComponent({
 .icon-text a:hover {
   background-color: var(--link);
   border-radius: 5px;
-  color: var(--bg-color);
-}
-
-.linkedin {
-  margin: 0 2rem;
+  box-shadow: 0 0 10px -10px #000000;
 }
 
 @media screen and (max-width: 768px) {
