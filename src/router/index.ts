@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomePage from "@/views/HomePage.vue";
 import ProjectPage from "@/views/ProjectPage.vue";
+import PageNotFound from "../components/PageNotFound.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -8,18 +9,21 @@ const router = createRouter({
     {
       path: "/",
       redirect: "/home",
-      children: [
-        {
-          path: "/home",
-          name: "Home",
-          component: HomePage,
-        },
-        {
-          path: "/project",
-          name: "Project",
-          component: ProjectPage,
-        },
-      ],
+    },
+    {
+      path: "/home",
+      name: "Home",
+      component: HomePage,
+    },
+    {
+      path: "/projects",
+      name: "Projects",
+      component: ProjectPage,
+    },
+    {
+      path: "/:pathMatch(.*)*",
+      name: "not-found",
+      component: PageNotFound,
     },
   ],
 });

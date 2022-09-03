@@ -55,7 +55,7 @@
             </router-link>
 
             <router-link
-              :to="{ name: 'Project' }"
+              :to="{ name: 'Projects' }"
               class="link navbar-item"
               @click="hideMenu"
             >
