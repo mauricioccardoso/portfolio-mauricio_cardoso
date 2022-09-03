@@ -71,6 +71,7 @@ export default defineComponent({
   border-radius: 5px;
   min-width: 8rem;
   max-width: 8rem;
+  transition: 0.25s;
 }
 
 .column:hover {

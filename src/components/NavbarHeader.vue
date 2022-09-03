@@ -104,6 +104,7 @@ export default defineComponent({
 .navbar-item,
 .navbar-burger {
   color: var(--link);
+  transition: 0.25s;
 }
 
 .navbar-item:hover,

@@ -47,6 +47,7 @@ export default defineComponent({
   padding: 1rem;
   font-size: 2rem;
   color: var(--font);
+  transition: 0.25s;
 }
 
 .icon-text a:hover {
