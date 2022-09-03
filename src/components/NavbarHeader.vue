@@ -7,7 +7,11 @@
     >
       <div class="container">
         <div class="navbar-brand">
-          <router-link to="/" class="link navbar-item" @click="hideMenu">
+          <router-link
+            :to="{ name: 'Home' }"
+            class="link navbar-item"
+            @click="hideMenu"
+          >
             <span class="brand icon-text">
               <span class="icon">
                 <i class="fa-solid fa-laptop-code"></i>
@@ -37,7 +41,11 @@
           :class="{ 'is-active': HamburgActive }"
         >
           <div class="navbar-end">
-            <router-link to="/" class="link navbar-item" @click="hideMenu">
+            <router-link
+              :to="{ name: 'Home' }"
+              class="link navbar-item"
+              @click="hideMenu"
+            >
               <span class="icon-text">
                 <span class="icon">
                   <i class="fas fa-home"></i>
@@ -47,7 +55,7 @@
             </router-link>
 
             <router-link
-              to="/project"
+              :to="{ name: 'Project' }"
               class="link navbar-item"
               @click="hideMenu"
             >

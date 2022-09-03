@@ -7,13 +7,19 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      name: "Home",
-      component: HomePage,
-    },
-    {
-      path: "/project",
-      name: "Project",
-      component: ProjectPage,
+      redirect: "/home",
+      children: [
+        {
+          path: "/home",
+          name: "Home",
+          component: HomePage,
+        },
+        {
+          path: "/project",
+          name: "Project",
+          component: ProjectPage,
+        },
+      ],
     },
   ],
 });

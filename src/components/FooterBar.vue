@@ -12,7 +12,9 @@
             Maurício Cardoso
           </a>
         </p>
-        <a class="credits" href="https://storyset.com/work" target="_blank">Work illustrations by Storyset</a>
+        <a class="credits" href="https://storyset.com/work" target="_blank"
+          >Work illustrations by Storyset</a
+        >
       </div>
 
       <div class="column is-one-third footer-item">
