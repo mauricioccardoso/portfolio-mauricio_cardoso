@@ -38,6 +38,14 @@
         <i class="fa-brands fa-github fa-3x"></i>
         <p>GitHub</p>
       </div>
+      <div class="column postman">
+        <img src="../../assets/img/postman.svg" />
+        <p>Postman</p>
+      </div>
+      <div class="column bootstrap">
+        <i class="fa-brands fa-bootstrap fa-3x"></i>
+        <p>Bootstrap</p>
+      </div>
     </div>
   </section>
 </template>
@@ -100,6 +108,14 @@ export default defineComponent({
 
 .github:hover {
   color: #000000;
+}
+
+.postman:hover {
+  color: #ff6c37;
+}
+
+.bootstrap:hover {
+  color: #814db3;
 }
 
 @media screen and (max-width: 359px) {

@@ -4,8 +4,8 @@
       <p>Olá mundo! Sou</p>
       <h2 class="title is-1">Maurício Cardoso</h2>
       <p>
-        Um programador web focado no desenvolvimento front-end, com
-        conhecimentos de back-end. Formado em
+        Desenvolvedor web com foco no desenvolvimento back-end e bastante
+        conhecimento em front-end. Formado em
         <span class="highlight">Engenharia da Computação.</span>
       </p>
     </div>
@@ -34,12 +34,9 @@ export default defineComponent({
   padding: 0.75rem 0;
 }
 
-.title {
-  color: var(--title);
-}
-
+.title,
 .highlight {
-  color: var(--link);
+  color: var(--title);
 }
 
 .image {

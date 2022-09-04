@@ -3,15 +3,16 @@
     <h2 class="title">Sobre mim</h2>
     <p>
       Tenho 25 anos e moro em Manaus/Am. Sou formado na área tecnológica, com
-      grande interesse na criação e desenvolvimento de produtos e ferramentas
-      para a web. Atualmente estou buscando aprimorar minhas habilidades em
-      programação.
+      grande interesse na criação e desenvolvimento de produtos e aplicações
+      para a web. Atualmente busco uma oportunidade na área de desenvolvimento e
+      aprimorar minhas habilidades em programação.
     </p>
     <p>
-      Desenvolvedor web jr, focado em
-      <span class="highlight">Front-End utilizando Vue.js</span>. Com
-      conhecimento em <span class="highlight">Back-End</span> nas ferramentas:
-      <span class="highlight">Laravel, PHP e MySQL.</span>
+      Desenvolvedor web jr, utilizando as tecnologias
+      <span class="highlight">Vue.js, JavaScript, Laravel, PHP e MySql.</span>
+      Construindo
+      <span class="highlight">SPA’s responsivas no Front-End</span> com
+      integração a <span class="highlight">API’s RESTful no Back-End.</span>
     </p>
     <p>
       Estudando para me tornar um desenvolvedor
@@ -36,12 +37,9 @@ export default defineComponent({
   margin-bottom: 10rem;
 }
 
-.title {
-  color: var(--title);
-}
-
+.title,
 .highlight {
-  color: var(--link);
+  color: var(--title);
 }
 
 @media screen and (max-width: 768px) {
