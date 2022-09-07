@@ -11,13 +11,10 @@
       Desenvolvedor web jr, utilizando as tecnologias
       <span class="highlight">Vue.js, JavaScript, Laravel, PHP e MySql.</span>
       Construindo
-      <span class="highlight">SPA’s responsivas no Front-End</span> com
-      integração a <span class="highlight">API’s RESTful no Back-End.</span>
-    </p>
-    <p>
-      Estudando para me tornar um desenvolvedor
+      <span class="highlight">SPA’s responsivas no Front-End</span>
+      com integração a
       <span class="highlight">
-        Full-Stack.
+        API’s RESTful no Back-End.
         <i class="fa-solid fa-face-laugh-beam"></i>
       </span>
     </p>
